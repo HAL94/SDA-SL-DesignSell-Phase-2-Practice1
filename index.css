@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+
+* {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-header-3 {
+  font-size: 2.5rem;
+  margin-bottom: 2.2rem;
+  line-height: 1.16;
+  color: #303030;
+  font-weight: 400;
+  width: 100%;
+  margin: 1.5rem auto;
+}
+
+.main-header-2 {
+  font-size: 4rem;
+  margin-bottom: 2.2rem;
+  line-height: 1.16;
+  color: #303030;
+  font-weight: 400;
+  text-align: center;
+}
+
+.intro-info {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.title-info {
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 25px;
+}
+
+.img-bs {
+  -webkit-box-shadow: -2px -1px 16px -2px #494f53;
+  box-shadow: -2px -1px 16px -2px #494f53;
+  margin: auto;
+  display: block;
+}
+
+.has-top-bar::before {
+  background-color: #ffa1a1;
+  height: 7px;
+  content: " ";
+  width: 50px;
+  display: inline-block;
+  margin: 0 auto 1.67rem;
+  margin-left: auto;
+}
+
+.has-touch-bar {
+  position: relative;
+}
+.has-touch-bar::after {
+  content: " ";
+  height: 1.725rem;
+  position: absolute;
+  left: 0;
+  top: 25px;
+  border-left: 4px solid #ffce00;
+}
+
+.border-top {
+  border-top: 1px solid #dee2e6;
+}
+
+.contact-us-btn {
+  padding: 20px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.card-item {
+  display: inline-block;
+  vertical-align: top;
+  margin: 40px auto 10px;
+  border: solid 1px #d8d8d8;
+  min-height: 474px;
+  position: relative;
+}
+
+.card-item-img {
+  height: 220px;
+  position: relative;
+  border-bottom: solid 1px #deedf4;
+}
+
+.card-item-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.card-item-title {
+  margin-top: 15px;
+  text-align: left;
+  line-height: 1.3;
+  font-size: 1rem;
+}
+
+.card-item-content {
+  font-size: 0.77778rem;
+  color: #303030;
+  text-align: left;
+  line-height: 1.5;
+  font-weight: 400;
+  height: 150px;
+}
+
+.card-item-link-container {
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.card-item-link-container .card-item-link {
+  float: left;
+  text-align: left;
+}
+
+.card-max-wd {
+  max-width: 334px;
+  margin: 20px auto;
+}

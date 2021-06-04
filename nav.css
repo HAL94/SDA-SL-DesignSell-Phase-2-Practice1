@@ -1,0 +1,42 @@
+li,
+a,
+button {
+  color: #0088a9;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #ececec;
+  max-height: 100px;
+}
+
+.logo {
+  cursor: pointer;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #303131;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
